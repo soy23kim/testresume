@@ -20,10 +20,23 @@ body {
     font-weight : bold;
 }
 
-img {
+/* img {
     width : 200px;
     height : 200px;
     border-radius: 50%;
+} */
+
+.img-area img {
+    width : 100%;
+}
+
+.img-area {
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+    margin : 25px auto;
+    border : 15px groove gray;
+    overflow : hidden;
 }
 
 .info, .workExp  {
